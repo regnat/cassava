@@ -105,6 +105,7 @@ Library
     unordered-containers < 0.3,
     vector >= 0.8 && < 0.13,
     Only >= 0.1 && < 0.1.1
+    text-short
 
   -- GHC.Generics lived in `ghc-prim` for GHC 7.2 & GHC 7.4 only
   if impl(ghc < 7.6)
